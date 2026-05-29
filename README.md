@@ -13,7 +13,7 @@
 **∂-NO (del-NO)** is a drop-in augmentation that injects **learnable fractional derivative features** into any neural operator backbone. Both the derivative orders $\beta_k$ and feature scales $s_k$ are jointly optimized with network weights via a differentiable Grünwald–Letnikov stencil. **The central finding:** the MSE-optimal derivative order $\beta^*$ is *strictly less* than the PDE order $m$, with the gap closed-form predicted by a spectral bias–variance tradeoff (Theorem 5.6).
 
 <p align="center">
-  <img src="figures/architecture.png" width="88%">
+  <img src="figures/Fig1.png" width="88%">
   <br>
   <em>∂-NO architecture: input <code>(x, u)</code> augmented with learnable fractional derivative features <code>D^β u</code> before any unchanged neural-operator backbone (FNO, Transolver, LocalNO, CNO, PINO, …)</em>
 </p>
